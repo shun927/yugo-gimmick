@@ -1,0 +1,46 @@
+# Unity (project under unity_test/)
+unity_test/[Ll]ibrary/
+unity_test/[Tt]emp/
+unity_test/[Oo]bj/
+unity_test/[Bb]uild/
+unity_test/[Bb]uilds/
+unity_test/[Ll]ogs/
+unity_test/[Uu]ser[Ss]ettings/
+unity_test/[Mm]emoryCaptures/
+unity_test/[Rr]ecordings/
+unity_test/[Aa]ssets/**/[Aa]ssetStoreTools*
+
+# Unity IDE / generated solution files
+unity_test/.vs/
+unity_test/.idea/
+unity_test/*.csproj
+unity_test/*.sln
+unity_test/*.slnx
+unity_test/*.user
+unity_test/*.unityproj
+unity_test/*.pidb
+unity_test/*.booproj
+unity_test/*.svd
+
+# Unity package manager cache (optional; keep repo smaller)
+unity_test/Library/PackageCache/
+
+# If you imported a git repo into Assets, don't commit its internal git dir
+unity_test/Assets/**/.git/
+
+# Arduino / PlatformIO build outputs (sketches under test/)
+**/.pio/
+**/build/
+**/*.elf
+**/*.hex
+**/*.bin
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Secrets (keep these out of git if you create them later)
+.env
+.env.*
